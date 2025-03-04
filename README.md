@@ -5,7 +5,7 @@ Arduino等を用いてルービッキューブを物理的に解くマシンを�
 キューブの各面を順に撮影し、OpenCVを用いて色を解析し得られた配色情報をPythonライブラリ"kociemba"で利用できる形式でFirebase Realtime Databaseに送信し、解法を受信しローカルサーバーにPOSTするiOSネイティブアプリケーション
 
 ### recieve.py（Python）
-Firebase Realtime Databeseの変更を感知し、Pythonライブラリ"kociemba"で解を計算しふたたびdbを更新するPythonコード
+Firebase Realtime Databeseの変更を感知し、Pythonライブラリ"kociemba"で解を計算しふたたびdbを更新するPythonプログラム
 
 ### send_by_Serial.ino (Arduino/C++)
 ESP32 Wrover Moduleをサーバー化し、POSTされた文字列をシリアル通信でそのまま横流しするコード
