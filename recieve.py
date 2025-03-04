@@ -3,8 +3,7 @@ import kociemba
 import time
 import json
 
-# Firebaseの設定
-DATABASE_URL = "https://compocollab-6fd75-default-rtdb.asia-southeast1.firebasedatabase.app/"
+# Firebaseの設定DATABASE_URL = "YOUR Firebase Realtime Database URL"
 
 # 180度回転の変換表
 def convert_moves(moves: str) -> str:
