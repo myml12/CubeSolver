@@ -8,7 +8,7 @@ Arduino等を用いてルービッキューブを物理的に解くマシンを�
 Firebase Realtime Databeseの変更を感知し、Pythonライブラリ"kociemba"で解を計算しふたたびdbを更新するPythonコード
 
 ### send_by_Serial.ino (Arduino/C++)
-ESP32をサーバー化し、POSTされた文字列をシリアル通信でそのまま横流しするコード
+ESP32 Wrover Moduleをサーバー化し、POSTされた文字列をシリアル通信でそのまま横流しするコード
 Arduino mega2560では無線通信ができないためこの方式をとった。
 
 ### cube.ino（Arduino/C++）
