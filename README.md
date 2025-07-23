@@ -1,5 +1,6 @@
-# ルービックキューブ全自動ソルブマシン
+## ルービックキューブ全自動ソルブマシン
 Arduino等を用いてルービッキューブを物理的に解くマシンを製作したときに作成したプログラム
+[こちら](https://zenn.dev/myml12/articles/2193ba5fffbc1e)の記事で詳しく紹介している。
 
 ### CubeAnalyzer（Swift/C++）
 キューブの各面を順に撮影し、OpenCVを用いて色を解析し得られた配色情報をPythonライブラリ"kociemba"で利用できる形式でFirebase Realtime Databaseに送信し、解法を受信しローカルサーバーにPOSTするiOSネイティブアプリケーション
